@@ -11,10 +11,26 @@ Listas
 
 > É uma Lista Linear na qual a ordem lógica dos elementos(a ordem "vista" pelo usuário) é a mesma ordem física(em memória principal) dos elementos. Isto é, elementos vizinhos na lista estarão em posições vizinhas de memória.
 
-### Modelagem
+## Modelagem
 
 Modelaremos usando:
  
     - Um arranjo de registros;
     - Registros conterão as informações de interesse do usuário;
     - O arranjo terá tamanho fixo e controlaremos o número de elementos com uma variável condicional;
+
+## Funções de gerenciamento
+
+Implementaremos funções para:
+
+    - Inicializar a estrutura;
+    - Retornar a quantidade de elementos válidos;
+    - Exibir os elementos;
+    - Buscar por um elemento;
+    - Inserir elementos na estrutura;
+    - Excluir elementos da estrutura;
+    - Reinicializar a estrutura;
+
+### Inicialização
+
+Para inicializar essa lista sequencial, só é necessário atribuir o valor `0` no número de elementos válidos
