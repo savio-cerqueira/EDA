@@ -34,3 +34,9 @@ Implementaremos funções para:
 ### Inicialização
 
 Para inicializar essa lista sequencial, só é necessário atribuir o valor `0` no número de elementos válidos
+
+```c
+    void initList (LIST* l) {
+        l->nroElem = 0;
+    }
+```
